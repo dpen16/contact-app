@@ -16,7 +16,7 @@ module.exports = {
       first_name:'Deepen',
       middle_name:'',
       last_name:'Khadge',
-      email:'sequelize db:seed:all',
+      email:'dpen16@gmail.com',
       password: await bcrypt.hash("password",10),
       createdAt:new Date(),
       updatedAt:new Date(),
