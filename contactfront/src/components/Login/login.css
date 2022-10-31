@@ -1,0 +1,80 @@
+.main__wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  max-width: 100%;
+}
+.wrapper__col{
+  flex: 1;
+}
+.login__col{
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.login__col h1{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  font-size: 22px;
+}
+.login__col h1:after{
+  content: '';
+  width: 60px;
+  height: 2px;
+  background: #318a1c;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.form-control{
+  width: 100%;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7;
+  padding: 10px 0;
+  min-height: 45px;
+  box-sizing: border-box;
+}
+.form__group{
+  margin-bottom: 25px;
+}
+
+.text-right{
+  text-align: right;
+}
+.signup__col{
+  margin-top: 20px;
+}
+.alert{
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.alert p{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.alert-success{
+  background: #e2ffd8;
+}
+.alert-success p{
+  color:#0f730e;
+}
+.alert-danger{
+  background: #ffdede;
+}
+.alert-danger p{
+  color:#d54d4d;
+}

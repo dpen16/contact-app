@@ -1,0 +1,10 @@
+export const USER_TOKEN = 'user-token';
+export const SERVER_API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
+export const API_LOGIN = 'signin';
+export const API_REGISTER = 'signup';
+export const API_FETCH_CONTACTS = 'contacts';
+export const API_POST_CONTACT = 'contacts';
+export const API_UPDATE_CONTACT = 'contacts';
+export const API_DELETE_CONTACT = 'contacts';
+export const API_GET_CONTACT_BY_ID = 'contact';
+export const API_MARK_CONTACT_FAVOURITE = 'mark-contact-favourite';

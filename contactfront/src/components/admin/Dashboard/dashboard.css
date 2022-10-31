@@ -1,0 +1,29 @@
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.dashboard__infos h1{
+  margin: 0;
+}
+.top__dashboard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.dashboard__btn{
+  margin-left: auto;
+}
+.dashboard__btn .btn{
+  margin-right: 5px;
+}
+.dashboard__btn .btn:last-child{
+  margin-right: 0;
+}
+.btn-relative{
+  position: relative;
+  top: -2px;
+  padding: 11px 25px;
+}
